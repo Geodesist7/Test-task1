@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e6dcbae99c7b24e90ec6a0baa899b9, type: 3}
+  m_Name: LevelConfig Extra Long
+  m_EditorClassIdentifier: 
+  Waves:
+  - {fileID: 11400000, guid: 244a5bf9e7f852946a32b13346255ccb, type: 2}
+  - {fileID: 11400000, guid: fe878cfe85a98d6418cb66aa42e5b779, type: 2}
+  - {fileID: 11400000, guid: 61d2ff3887d8cd04f97de843983e4a0c, type: 2}
+  - {fileID: 11400000, guid: d443eb220d9d3334b8165e18b7994fbc, type: 2}
+  - {fileID: 11400000, guid: 12bae99a8672f9a498983f7537943dc1, type: 2}
+  - {fileID: 11400000, guid: a329aa96fe42ce441bc1e9405687bcce, type: 2}
+  - {fileID: 11400000, guid: fae73282bc9537d4587c4d170e108305, type: 2}
