@@ -6,7 +6,7 @@ public class GlobalEventManager
     public static UnityEvent OnEnemieDie = new UnityEvent();
     public static UnityEvent OnPlayerDie = new UnityEvent();
     public static UnityEvent OnAttack = new UnityEvent();
-    public static UnityEvent OnSuperAttack = new UnityEvent();
+    public static UnityEvent OnSuperAttack = new UnityEvent(); // ивент супер атаки
     public static UnityEvent<float> OnSuperAttackCooldown = new UnityEvent<float>();
     public static UnityEvent<bool> OnSuperAttackAvailable = new UnityEvent<bool>();
 
@@ -18,9 +18,9 @@ public class GlobalEventManager
     {
         OnPlayerDie.Invoke();
     }
-    public static void SuperAttack()
+    public static void SuperAttack() // супер атака
     {
-        OnSuperAttack.Invoke();
+        OnSuperAttack.Invoke(); // вызываем ивент супер атаки
     }
     public static void Attack()
     {

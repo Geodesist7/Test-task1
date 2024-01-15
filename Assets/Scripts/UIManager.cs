@@ -20,10 +20,10 @@ public class UIManager: MonoBehaviour
     {
         superAttackButton.interactable = false;
     }
-    public void SuperAttack()
+    public void SuperAttack() // нажимаем на кнопку
     {
-        superAttackButton.interactable = false;
-        GlobalEventManager.SuperAttack();
+        superAttackButton.interactable = false; // выключаем возможность нажать на кнопку
+        GlobalEventManager.SuperAttack(); // вызываем глобальный метод супер атаки
     }
     public void TryAttack()
     {
